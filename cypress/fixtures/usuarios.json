@@ -1,0 +1,13 @@
+{
+  "usuarioValido": {
+    "nome": "Joãozinho",
+    "sobrenome": "Silva",
+    "email": "joao@examplo.com",
+    "senha": "Senha123"
+  },
+  "usuarioInvalido": {
+    "nome": "",
+    "email": "joao",
+    "senha": "123"
+  }
+}
