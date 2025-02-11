@@ -119,6 +119,9 @@ QA-Guia/
 │-- README.md            # Documentação
 ```
 
+## CI/CD com GitHub Actions
+A configuração do CI/CD foi realizada utilizando GitHub Actions para automatizar a execução dos testes sempre que houver um push ou pull request na branch main. O workflow cobre os testes de API, UI e performance, garantindo a qualidade contínua do sistema durante o desenvolvimento.
+
 ## 📌 Conclusão
 
 Todos os testes foram realizados com sucesso, cumprindo os requisitos solicitados para validar a qualidade e performance do sistema. Os resultados indicam que tanto a API quanto o formulário de cadastro funcionam corretamente sob diferentes cenários.
