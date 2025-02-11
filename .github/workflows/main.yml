@@ -15,10 +15,10 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v2
       
-      - name: Set up Node.js
+      - name: Set up Node.js (version 16 or later)
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install Newman (CLI do Postman)
         run: npm install -g newman
